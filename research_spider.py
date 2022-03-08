@@ -23,7 +23,7 @@ def main(keywords, years, events):
 
 
 if __name__ == '__main__':
-    years = (2018, 2019)
-    keywords_list = ['sentiment']
-    events = ["ACL"]
+    years = (2016, 2021)
+    keywords_list = ['fraud','telecommunication','detection']
+    events = ['ACL', 'CL', 'COLING', 'EACL', 'EMNLP', 'LREC', 'NAACL']
     main(keywords_list, years, events)
